@@ -9,6 +9,7 @@ import {
 
 const { performance } = require("perf_hooks");
 export default async function handler(req, res) {
+  console.log("api test copier handler");
   let response = {};
 
   // Run Tests
